@@ -25,6 +25,10 @@ public class Bird extends MonoBehaviour {
 		if (rb.velocity.magnitude > topSpeed) {
 			rb.velocity = rb.velocity.normalized * topSpeed;
 		}
+
+		if (score == 11) {
+			SceneManager.LoadScene("level1"); //Game resets when it reached score 11
+		}
 	}
 
 	function OnCollisionEnter (col : Collision) {

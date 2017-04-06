@@ -5,7 +5,7 @@ public var minDistance : int = 5;
 public var maxDistance: int = 10;
 public var minHeight: int = 3;
 public var maxHeight: int = 20;
-public var levelWidth: int = 10;
+public var levelWidth: int = 11;
 public var initialZ: int = 0;
 function Start () {
 	var nextZ = initialZ;
